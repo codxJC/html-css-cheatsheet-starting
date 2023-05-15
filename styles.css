@@ -1,0 +1,194 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: white;
+    box-sizing: border-box;
+}
+
+.navbar {
+    box-sizing: border-box;
+    overflow: auto;
+    background-color: black;
+    position: relative;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+    font-weight: 600;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+  }
+
+.navbar li {
+    display: inline-block;
+    letter-spacing: 1px;
+    padding: 20px 20px;
+}
+
+.navbar a {
+    color: chartreuse;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: fuchsia;
+}
+
+.banner {
+    box-sizing: border-box;
+    height: auto;
+    margin-top: 20px; 
+    padding-bottom: 20px;
+    background-size: cover;
+    font-family: Raleway, sans-serif;
+    font-weight: 400; 
+    text-align: center;
+    border-bottom-style:ridge;
+    border-bottom-width: 10px;
+    border-bottom-color: turquoise;
+    /* Sets the horizontal span of the border: */
+    position: relative;
+    left: 5%;
+    width: 90%;
+    /* Sets the horizontal span of the border */
+}
+
+h1 {
+    font-size: 70px;
+    font-family: Raleway, sans-serif; 
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Raleway, sans-serif; 
+    padding: 20px 0px;
+}
+
+h3 {
+    font-size: 24px;
+    padding: 15px 0;
+    font-family: Raleway, sans-serif;
+    font-weight: 600; 
+    text-align: center;
+}
+
+.avatar {
+    background-image: url(./images/avatar.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+
+    /*sets the element's background inside it's content box. */
+    background-clip: content-box; 
+
+    display: inline-block;
+}
+
+main a {
+    text-decoration: none;
+    color: darkmagenta;
+    font-weight: 600;
+}
+
+main a:hover {
+    text-decoration: none;
+    color: fuchsia;
+}
+
+p {
+    position: relative;
+    left: 15%;
+    width: 70%;
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    text-align: justify;
+    padding-bottom: 15px;
+    line-height: 1.5em;
+}
+
+table {
+    /* Sets the horizontal span of the table */
+    position: relative;
+    left: 15%;
+    width: 70%;
+    border-collapse: collapse; /* Removes the gap between the table cells */
+    border: 1px solid;
+}
+
+th {
+    height: auto;
+    width: auto;
+    background: rgb(64, 224, 208);
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 1px solid black;
+    border-right: 1px dotted gainsboro;
+    text-align: center;
+    padding: 10px;
+    white-space: nowrap; /* prevents text wrapping */
+}
+
+td {
+    height: auto;
+    width: auto;
+    background:ivory;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    border-bottom: 1px dotted gainsboro;
+    border-right: 1px dotted gainsboro;
+    text-align: left;
+    padding: 10px;
+}
+
+.code {
+    font-family: Inconsolata, sans-serif;
+    background-color: lavender;
+    white-space: nowrap;
+}
+
+figure {
+    display: flex;
+    flex-flow: column; /*specifies the direction of a flex container */
+    position: relative;
+    left: 15%;
+    width: 70%;
+}
+
+figcaption {
+    font-family: Raleway, sans-serif;
+    font-size: 20px;
+    font-weight: 600; 
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    text-align: left;
+}
+
+.whitespace {
+    height:100px;
+    width: 100%;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    display: flex; /* to position items at the middle of the footer, used together with align-items and justify-content */
+    align-items: center; /* positioned items at the middle of the footer */
+    justify-content: center;  /*Positioned the text at the center of the footer */
+    color: chartreuse;
+    background-color: black;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400; 
+    bottom: 0px;
+}

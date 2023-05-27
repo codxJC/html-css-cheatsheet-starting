@@ -8,4 +8,6 @@ This is not a project focused on the ideal design.
 This is a project about structure and learning.
 :)
 
-###### codxJC
+[Live Preview](https://raw.githack.com/codxJC/html-css-cheatsheet-starting/main/index.html)
+
+#### codxJC

@@ -8,22 +8,16 @@ body {
     box-sizing: border-box;
 }
 
-.navbar {
-    box-sizing: border-box;
-    overflow: auto;
+nav {
+    z-index: 999;
     background-color: black;
-    position: relative;
+    position: fixed;
     top: 0;
     width: 100%;
     text-align: center;
     font-family: Montserrat, sans-serif;
     font-weight: 600;
 }
-
-ul {
-    padding: 0;
-    margin: 0;
-  }
 
 .navbar li {
     display: inline-block;
@@ -43,7 +37,7 @@ ul {
 .banner {
     box-sizing: border-box;
     height: auto;
-    margin-top: 20px; 
+    margin-top: 70px;
     padding-bottom: 20px;
     background-size: cover;
     font-family: Raleway, sans-serif;

@@ -37,9 +37,8 @@ nav {
 .banner {
     box-sizing: border-box;
     height: auto;
-    margin-top: 70px;
+    margin-top: 118px;
     padding-bottom: 20px;
-    background-size: cover;
     font-family: Raleway, sans-serif;
     font-weight: 400; 
     text-align: center;
@@ -49,12 +48,13 @@ nav {
     /* Sets the horizontal span of the border: */
     position: relative;
     left: 5%;
+    right: 5%;
     width: 90%;
     /* Sets the horizontal span of the border */
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 65px;
     font-family: Raleway, sans-serif; 
 }
 
@@ -100,6 +100,7 @@ main a:hover {
 p {
     position: relative;
     left: 15%;
+    right: 15%;
     width: 70%;
     font-family: Raleway, sans-serif;
     font-size: 16px;
@@ -112,6 +113,7 @@ table {
     /* Sets the horizontal span of the table */
     position: relative;
     left: 15%;
+    right: 15%;
     width: 70%;
     border-collapse: collapse; /* Removes the gap between the table cells */
     border: 1px solid;
@@ -155,6 +157,7 @@ figure {
     flex-flow: column; /*specifies the direction of a flex container */
     position: relative;
     left: 15%;
+    right: 15%;
     width: 70%;
 }
 
@@ -199,4 +202,15 @@ kbd {
     line-height: 1;
     padding: 2px 4px;
     white-space: nowrap;
+}
+
+/**********************************************/
+/********* Devices Larger than 643px **********/
+/**********************************************/
+
+@media (min-width: 644px) {
+
+    .banner {
+        margin-top: 70px;
+    }
 }
